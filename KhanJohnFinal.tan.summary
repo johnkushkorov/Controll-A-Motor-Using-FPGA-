@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.878 ns
+From           : G
+To             : FourBitFreqDiv:inst|count[20]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.808 ns
+From           : state_machine:inst1|state.S2
+To             : gpio[2]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.587 ns
+From           : S[1]
+To             : HEX0[1]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.594 ns
+From           : dir
+To             : state_machine:inst1|state.S2
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 329.49 MHz ( period = 3.035 ns )
+From           : FourBitFreqDiv:inst|count[1]
+To             : FourBitFreqDiv:inst|count[20]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Type           : Clock Setup: 'S[2]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : state_machine:inst1|state.S3
+To             : state_machine:inst1|state.S2
+From Clock     : S[2]
+To Clock       : S[2]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'S[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : state_machine:inst1|state.S3
+To             : state_machine:inst1|state.S2
+From Clock     : S[0]
+To Clock       : S[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'S[1]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : state_machine:inst1|state.S3
+To             : state_machine:inst1|state.S2
+From Clock     : S[1]
+To Clock       : S[1]
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
